@@ -1,17 +1,18 @@
 <?php
 
 function insertion_sort($list){
-    for ($i = 1; $i < count($list); $i++){
-        $key = $list[$i];
-        $j = $i - 1;
-        while($j >= 0 && $list[$j] > $key){
-            $list[$j + 1] = $list[$j];
-            $j--;
+    $i = 1;
+    for($i; $i < count($list); $i++){
+        $copia = $list[$i];
+        while ($i > 0 && $list[$i - 1] > $copia) {
+            $list[$i] = $list[$i - 1];
+            $i--;
         }
-        $list[$j+1] = $key;
+        $list[$i] = $copia;
     }
 
     return $list;
 }
 
 print_r(insertion_sort([10, 5, 2, 9, 0])); 
+
