@@ -44,7 +44,7 @@
 
 <br>
 
-```php
+````php
     inteiro lista[6] = [85, 12, 59, 45, 72, 51]
     inteiro copia, indice, i
 
@@ -60,10 +60,25 @@
     }
 
     imprimir(lista, 6)
-```
+````
 
 ### fluxograma sobre o que foi feito acima 
 
 <hr>
 
 <img src="https://www.w3resource.com/w3r_images/searching-and-sorting-algorithm-exercise-3.png">
+
+
+### Exemplos de utilização em problemas reais
+
+- é frequentemente utilizado para ordenar arrays de elementos em ordem crescente ou decrescente. Alguns exemplos de problemas que podem ser solucionados utilizando o algoritmo Insertion Sort incluem:
+
+- __Ordenação de nomes em uma lista de contatos__: suponha que você tenha uma lista de contatos com milhares de nomes e queira ordená-los em ordem alfabética. O algoritmo Insertion Sort pode ser utilizado para realizar essa tarefa de forma eficiente.
+
+- __Ordenação de dados em um banco de dados__: o algoritmo Insertion Sort pode ser utilizado para ordenar os registros em uma tabela de um banco de dados, de forma a facilitar a busca e recuperação de informações.
+
+- __Ordenação de cartas em um jogo de baralho__: o algoritmo Insertion Sort pode ser utilizado para ordenar as cartas de um baralho em ordem crescente ou decrescente, de acordo com as regras do jogo.
+
+- __Ordenação de elementos em um programa de computador__: o algoritmo Insertion Sort é frequentemente utilizado em programas de computador para ordenar listas de elementos, como números, palavras, objetos, entre outros.
+
+- __Ordenação de itens em um supermercado__: o algoritmo Insertion Sort pode ser utilizado para organizar os produtos em um supermercado em ordem alfabética ou por categoria, facilitando a busca pelos clientes.
