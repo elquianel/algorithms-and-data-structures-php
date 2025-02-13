@@ -1,5 +1,5 @@
-# algorithms-and-data-structures-php
-### Estudando algoritmos e estruturas de dados, implementando em PHP
+# Algoritmos e Estruturas de Dados
 
+## Referências 
 
-
+- Aprendendo algoritmos: Um guia ilustrado para programadores e outros curiosos (Livro físico)
